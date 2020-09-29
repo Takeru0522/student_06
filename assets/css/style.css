@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 45px;
+    right: 2px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.to-top > img {
+    height: 35px;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255); 
+}
+
+.logo {
+    height: 50px;
+    padding: 0 25px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav > li  {
+    color: rgba(8, 8, 8, 0.685);
+    text-decoration: none;
+    padding: 0 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Wawati SC', sans-serif;
+    cursor: pointer;
+}
+
+.top-page {
+    background-image: url("../img/699AAD22-2683-4754-8089-BEF6314F800E.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 70vh;    
+}
+
+.title > pre {
+    font-family: 'Wawati SC', sans-serif;
+
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 100px;
+    color: white;
+}
+
+@media screen and (max-width: 830px) {
+    .title {
+        font-size: 50px;
+        padding-top: 50px;
+    }
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+    color: white;
+}
+
+section {
+    width: 100%;
+    margin-top: 60px;
+}
+
+section > h1 {
+    font-size: 33px;
+    color: rgba(66, 38, 167, 0.74);
+    text-align: center;
+    padding: 20px 0 40px;
+    font-family: 'Wawati SC', sans-serif;
+}
+
+#concept > p {
+    background-image: url(../img/S__97755138.jpg);
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    line-height: initial;
+    padding: 30px 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contents1 {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    justify-content: space-evenly; 
+    background-color:  rgba(228, 224, 224, 0.5);
+    width: 100vw; 
+    padding: 20px 0 20px 20px;
+}
+
+/* 画像を円形にくり抜いて表示する方法
+.photo-to-circle {
+    background-image: url(../img/6EC8D12F-3FCF-4B8F-A551-1D7CF72F8EF6_1_105_c.jpeg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center ;
+} */
+
+.photo {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.nom {
+    font-size: 25px;
+    font-family: 'Wawati SC', sans-serif;
+}
+
+.prof {
+    padding-right: 100px;
+    margin-top: 40px;
+    font-family: 'Wawati SC', sans-serif;
+    font-size: 20px;
+
+}
+
+ul > li {
+    margin-top: 20px;
+}
+
+.contents2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly; 
+    padding: 0px 0 0px 20px;   
+}
+
+.top {
+    width: 95%;
+}
+
+.collection-items {
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* input, textarea {
+    border-radius: 5%;
+    width: 35%;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+} */
+
+button {
+    font-size: 25px;
+    width: 330px;
+    background-color: rgb(206, 206, 206);
+    height: 80px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5%;
+    font-family: 'Wawati SC', sans-serif;
+}
+
+
+footer {
+    color: white;
+    background-color: rgb(11, 23, 71);
+    text-align: center;
+    padding: 23px 0;
+    margin-top: 150px;
+}
